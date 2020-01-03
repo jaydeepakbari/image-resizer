@@ -1,1 +1,1 @@
-# jd-imageresizer
+# Laravel Simple Images Resizer 
