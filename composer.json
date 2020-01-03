@@ -2,12 +2,25 @@
     "name": "jd/imageresizer",
     "description": "You can resize image on fly or manually",
     "type": "tool",
+    "keywords": [
+        "jd",
+        "laravel",
+        "imageresizer",
+        "resize"
+    ],
     "authors": [
         {
             "name": "Jaydeep Akbari",
             "email": "jaydeepakbari@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "JD\\Imageresizer\\": "src"
+        }
+    },
+    "require": {
+        "php" : "^5.0"
+    },
+    "minimum-stability": "dev"
 }
